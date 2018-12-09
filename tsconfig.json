@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "pretty": true,
+    "outDir": "dist",
+    "resolveJsonModule": false,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "allowUnreachableCode": true,
+    "lib": [
+      "es2017"
+    ]
+  },
+  "compileOnSave": false,
+  "include":  [
+    "src/.test/**/*.ts",
+    "src"
+  ]
+}
